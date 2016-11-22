@@ -1,0 +1,124 @@
+{
+  ".source.pgn": {
+    "Standard tags": {
+      "prefix": "tags",
+      "body": "[Event \"${1:?}\"]\n[Site \"${2:?}\"]\n[Date \"${3:????}.${4:??}.${5:??}\"]\n[Round \"${6:?}\"]\n[White \"${7:?}, ${8:?}\"]\n[Black \"${9:?}, ${10:?}\"]\n[Result \"${11:*-*}\"]\n$0"
+    },
+    "Event": {
+      "prefix": "ev",
+      "body": "[Event "${1:?}"]\n$0"
+    },
+    "Site": {
+      "prefix": "si",
+      "body": "[Site "${1:?}"]\n$0"
+    },
+    "Date": {
+      "prefix": "da",
+      "body": "[Date "${1:????}.${2:??}.${3:??}"]\n$0"
+    },
+    "Round": {
+      "prefix": "ro",
+      "body": "[Round "${1:?}"]\n$0"
+    },
+    "White": {
+      "prefix": "wh",
+      "body": "[White "${1:?}, ${2:?}"]\n$0"
+    },
+    "Black": {
+      "prefix": "bl",
+      "body": "[Black "${1:?}, ${2:?}"]\n$0"
+    },
+    "Result": {
+      "prefix": "re",
+      "body": "[Result "${1:*-*}"]\n$0"
+    },
+    "ECO": {
+      "prefix": "ec",
+      "body": "[ECO "${1:???}"]\n$0"
+    },
+    "WhiteElo": {
+      "prefix": "we",
+      "body": "[WhiteElo "${1:????}"]\n$0"
+    },
+    "BlackElo": {
+      "prefix": "be",
+      "body": "[BlackElo "${1:????}"]\n$0"
+    },
+    "Event date": {
+      "prefix": "ed",
+      "body": "[EventDate "${1:????}.${2:??}.${3:??}"]\n$0"
+    },
+    "Annotator": {
+      "prefix": "an",
+      "body": "[Annotator "${1:?}, ${2:?}"]\n$0"
+    },
+    "Source": {
+      "prefix": "so",
+      "body": "[Source "${1:?}"]\n$0"
+    },
+    "Any tag pair": {
+      "prefix": "tp",
+      "body": "[${1:Name} "${2:Value}"]\n$0"
+    },
+    "Good move": {
+      "prefix": "!",
+      "body": " \\$1"
+    },
+    "Bad move": {
+      "prefix": "?",
+      "body": " \\$2"
+    },
+    "Excellent move": {
+      "prefix": "!!",
+      "body": " \\$3"
+    },
+    "Blunder": {
+      "prefix": "??",
+      "body": " \\$4"
+    },
+    "Speculative move": {
+      "prefix": "!?",
+      "body": " \\$5"
+    },
+    "Dubious move": {
+      "prefix": "?!",
+      "body": " \\$6"
+    },
+    "Only move": {
+      "prefix": "O",
+      "body": " \\$7"
+    },
+    "Equal position": {
+      "prefix": "=",
+      "body": " \\$10"
+    },
+    "Unclear position": {
+      "prefix": "&",
+      "body": " \\$13"
+    },
+    "White has small advantage": {
+      "prefix": "+=",
+      "body": " \\$14"
+    },
+    "Black has small advantage": {
+      "prefix": "=+",
+      "body": " \\$15"
+    },
+    "White is much better": {
+      "prefix": "+>",
+      "body": " \\$16"
+    },
+    "Black is much better": {
+      "prefix": ">+",
+      "body": " \\$17"
+    },
+    "White is winning": {
+      "prefix": "+-",
+      "body": " \\$18"
+    },
+    "Black is winning": {
+      "prefix": "-+",
+      "body": " \\$19"
+    }
+  }
+}
