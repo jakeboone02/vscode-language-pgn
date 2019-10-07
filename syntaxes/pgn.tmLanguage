@@ -45,7 +45,7 @@
           </dict>
         </dict>
         <key>end</key>
-        <string>(1-0|0-1|1\/2-1\/2|\*-\*)</string>
+        <string>(1-0|0-1|1\/2-1\/2|\*)</string>
         <key>endCaptures</key>
         <dict>
           <key>0</key>
@@ -74,7 +74,7 @@
       </dict>
       <dict>
         <key>match</key>
-        <string>^\s*(1-0|0-1|1\/2-1\/2|\*-\*)</string>
+        <string>^\s*(1-0|0-1|1\/2-1\/2|\*)</string>
         <key>name</key>
         <string>markup.bold.pgn</string>
         <key>captures</key>
