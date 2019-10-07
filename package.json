@@ -2,7 +2,7 @@
   "name": "pgn",
   "displayName": "PGN",
   "description": "Chess PGN (Portable Game Notation) support for VSCode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "jakeboone02",
   "engines": {
     "vscode": "^1.5.0"
@@ -12,17 +12,26 @@
     "Snippets"
   ],
   "contributes": {
-    "languages": [{
-      "id": "pgn",
-      "aliases": ["PGN", "pgn"],
-      "extensions": [".pgn"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "pgn",
-      "scopeName": "source.pgn",
-      "path": "./syntaxes/pgn.tmLanguage"
-    }],
+    "languages": [
+      {
+        "id": "pgn",
+        "aliases": [
+          "PGN",
+          "pgn"
+        ],
+        "extensions": [
+          ".pgn"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "pgn",
+        "scopeName": "source.pgn",
+        "path": "./syntaxes/pgn.tmLanguage"
+      }
+    ],
     "snippets": [
       {
         "language": "pgn",
