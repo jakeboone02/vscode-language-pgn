@@ -2,7 +2,7 @@
   "name": "pgn",
   "displayName": "PGN",
   "description": "Chess PGN (Portable Game Notation) support for VSCode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "jakeboone02",
   "engines": {
     "vscode": "^1.5.0"
